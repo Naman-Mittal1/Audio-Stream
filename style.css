@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap');
+
+
+body{
+    background-color: black;
+}
+
+*{
+    margin : 0;
+    padding : 0;
+} 
+
+nav{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    list-style-type: none;
+    height: 60px;
+    background-color: rgb(65, 68, 74);
+    color: white;
+}
+
+
+
+.brand img {
+    width: 51px;
+    padding: 0px;
+    margin-left: 21px;
+    margin-top: 4px;
+}
+
+.container{
+    color:white;
+    min-height: 75vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(65, 68, 74);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top: 20px;
+    
+}
+
+#myProgressBar{
+    width: 100vh;
+    align-items: center;
+}
+
+.songItemContainer{
+    margin-top: 40px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    width: 80%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    font-weight: bold;
+}
+.songList h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font
+}
+.songItem img{
+    width: 50px;
+    margin: 0 23px 0;
+}
+
+.songListPlay{
+    display: flex;
+}
+
+.timestamp{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songName{
+    width: 100%;
+}
